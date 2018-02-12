@@ -259,6 +259,10 @@ input[type=submit] {
    width: 60px;
  }
 
+ .work {
+   width: 100%;
+ }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -267,25 +271,30 @@ input[type=submit] {
     background: url("../images/concrete_seamless.png");
   }
   .main-section { 
-    width: 95%;
+    width: 100%;
     float: none;
-    max-width: 95%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
   .sidebar{
-    width: 95%;
+    width: 100%;
     float: none;
-    max-width: 95%;
+    max-width: 100%;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
   .container {
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     clear: both;
+  }
+
+  .work {
+    width: 40%;
+    float: none;
   }
 
 }
@@ -347,5 +356,9 @@ input[type=submit] {
 
   footer {
     padding: 5px;
+  }
+
+  .work {
+    width: 100%;
   }
 }
