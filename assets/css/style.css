@@ -238,6 +238,11 @@ input[type=submit] {
   border: 0 none;
 }
 
+.social:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 980px) {
   /* The body's bg color will be #333 */
   body {
