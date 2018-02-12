@@ -280,6 +280,7 @@ input[type=submit] {
     float: none;
     max-width: 100%;
     margin: 0 auto;
+    overflow: auto;
   }
 
   .sidebar{
@@ -298,8 +299,8 @@ input[type=submit] {
   }
 
   .work {
-    width: 40%;
-    float: none;
+    width: 45%;
+    float: left;
   }
 
 }
@@ -347,10 +348,16 @@ input[type=submit] {
   }
 
   nav {
-    float: none;
-    text-align: center;
+    float: left;
+    text-align: none;
     margin-top: 0;
     font-size: 14px;
+    width: 100%
+
+  }
+
+  nav a { 
+   margin-left: 14%;
   }
 
   .container {
